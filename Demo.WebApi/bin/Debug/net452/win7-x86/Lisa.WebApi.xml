@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Demo.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Demo.WebApi.Controllers.AdyenPaymentFlowController.Get(System.Int32)">
+            <summary>
+            Example endpoint which generates test data to make a payment PUT request
+            </summary>
+            <param name="seed">Random number</param>
+            <returns></returns>
+        </member>
+        <member name="M:Demo.WebApi.Controllers.AdyenPaymentFlowController.Get(Demo.Payment.Adyen.AdyenPaymentResponse)">
+            <summary>
+            Landing Endpoint for Adyen payment flow
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Demo.WebApi.Controllers.AdyenPaymentFlowController.Put(Demo.Payment.Adyen.AdyenPaymentRequest)">
+            <summary>
+            Submit Adyen payment request
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Demo.WebApi.Controllers.StripePaymentFlowController.Get(System.Int32)">
+            <summary>
+            Example endpoint which generates test data to make a payment PUT request
+            </summary>
+            <param name="seed">Random number</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

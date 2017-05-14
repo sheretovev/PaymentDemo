@@ -1,0 +1,114 @@
+2017-05-14 10:29:46 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 DEBUG http://localhost:8871/  0
+2017-05-14 10:29:47 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 239.5123ms 500 text/html; charset=utf-8
+2017-05-14 10:30:58 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger  
+2017-05-14 10:30:58 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 6.0296ms 500 text/html; charset=utf-8
+2017-05-14 10:30:59 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/favicon.ico  
+2017-05-14 10:30:59 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 4.3727ms 500 text/html; charset=utf-8
+2017-05-14 10:31:44 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 DEBUG http://localhost:8871/  0
+2017-05-14 10:31:44 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 101.5912ms 200 
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 369.7175ms 302 
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/index.html  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 179.825ms 200 text/html
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/css/typography.css  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/css/reset.css  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/css/screen.css  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/lib/object-assign-pollyfill.js  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/lib/jquery-1.8.0.min.js  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/lib/jquery.slideto.min.js  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/lib/object-assign-pollyfill.js"'. Physical path: '"N/A"'
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/lib/jquery-1.8.0.min.js"'. Physical path: '"N/A"'
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/css/reset.css"'. Physical path: '"N/A"'
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/css/screen.css"'. Physical path: '"N/A"'
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/css/typography.css"'. Physical path: '"N/A"'
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/lib/jquery.slideto.min.js"'. Physical path: '"N/A"'
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 88.8191ms 200 text/css
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 60.8693ms 200 application/javascript
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 76.1084ms 200 application/javascript
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/lib/jquery.wiggle.min.js  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 66.3511ms 200 application/javascript
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/lib/jquery.wiggle.min.js"'. Physical path: '"N/A"'
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/lib/jquery.ba-bbq.min.js  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 96.6802ms 200 text/css
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/lib/handlebars-4.0.5.js  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/lib/jquery.ba-bbq.min.js"'. Physical path: '"N/A"'
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 4.1831ms 200 application/javascript
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 2.4637ms 200 application/javascript
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/lib/handlebars-4.0.5.js"'. Physical path: '"N/A"'
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 1.5708ms 200 application/javascript
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/swagger-ui.min.js  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/lib/lodash.min.js  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/lib/backbone-min.js  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/lib/lodash.min.js"'. Physical path: '"N/A"'
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 94.7755ms 200 text/css
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/lib/backbone-min.js"'. Physical path: '"N/A"'
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/swagger-ui.min.js"'. Physical path: '"N/A"'
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 2.8975ms 200 application/javascript
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 3.5821ms 200 application/javascript
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/lib/highlight.9.1.0.pack.js  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/lib/highlight.9.1.0.pack.js"'. Physical path: '"N/A"'
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.7202ms 200 application/javascript
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 8.619ms 200 application/javascript
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/lib/highlight.9.1.0.pack_extended.js  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/lib/highlight.9.1.0.pack_extended.js"'. Physical path: '"N/A"'
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.7706ms 200 application/javascript
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/lib/jsoneditor.min.js  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/lib/swagger-oauth.js  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/lib/marked.js  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/lib/swagger-oauth.js"'. Physical path: '"N/A"'
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/lib/jsoneditor.min.js"'. Physical path: '"N/A"'
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.7495ms 200 application/javascript
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 3.9389ms 200 application/javascript
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/lib/marked.js"'. Physical path: '"N/A"'
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 2.9129ms 200 application/javascript
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/images/logo_small.png  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/images/logo_small.png"'. Physical path: '"N/A"'
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.808ms 200 image/png
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/css/print.css  
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/css/print.css"'. Physical path: '"N/A"'
+2017-05-14 10:32:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 1.1014ms 200 text/css
+2017-05-14 10:32:01 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/v1/swagger.json  
+2017-05-14 10:32:01 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/images/favicon-16x16.png  
+2017-05-14 10:32:01 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/images/favicon-16x16.png"'. Physical path: '"N/A"'
+2017-05-14 10:32:01 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.6707ms 200 image/png
+2017-05-14 10:32:01 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/images/favicon-32x32.png  
+2017-05-14 10:32:01 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/images/favicon-32x32.png"'. Physical path: '"N/A"'
+2017-05-14 10:32:01 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.4295ms 200 image/png
+2017-05-14 10:32:01 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 189.113ms 200 application/json
+2017-05-14 10:32:04 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/images/throbber.gif  
+2017-05-14 10:32:04 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '"/images/throbber.gif"'. Physical path: '"N/A"'
+2017-05-14 10:32:04 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.4044ms 200 image/gif
+2017-05-14 10:32:04 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/images/favicon-16x16.png  
+2017-05-14 10:32:04 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The file "/images/favicon-16x16.png" was not modified
+2017-05-14 10:32:04 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 7.1537ms 304 image/png
+2017-05-14 10:32:08 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/StripePaymentFlow/2  
+2017-05-14 10:32:08 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method "Demo.WebApi.Controllers.StripePaymentFlowController.Get (Demo.WebApi)" with arguments (["2"]) - ModelState is Valid
+2017-05-14 10:32:08 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value "Demo.Payment.Stripe.StripePaymentRequest".
+2017-05-14 10:32:08 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action "Demo.WebApi.Controllers.StripePaymentFlowController.Get (Demo.WebApi)" in 238.8515ms
+2017-05-14 10:32:08 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 309.3106ms 200 application/json; charset=utf-8
+2017-05-14 10:32:18 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/swagger/images/favicon-16x16.png  
+2017-05-14 10:32:18 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The file "/images/favicon-16x16.png" was not modified
+2017-05-14 10:32:18 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.4159ms 304 image/png
+2017-05-14 10:32:44 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 PUT http://localhost:8871/StripePaymentFlow?firstPayment=true&sepa_debit=false&customer=true&subscription=false application/json 564
+2017-05-14 10:32:44 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method "Demo.WebApi.Controllers.StripePaymentFlowController.Put (Demo.WebApi)" with arguments (["True", "False", "True", "False", "Demo.Payment.Stripe.StripePaymentRequest"]) - ModelState is Valid
+2017-05-14 10:33:02 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action "Demo.WebApi.Controllers.StripePaymentFlowController.Put (Demo.WebApi)" in 18630.9064ms
+2017-05-14 10:33:02 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 18657.9782ms 500 
+2017-05-14 10:33:16 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 PUT http://localhost:8871/StripePaymentFlow?firstPayment=true&sepa_debit=false&customer=true&subscription=false application/json 564
+2017-05-14 10:33:16 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method "Demo.WebApi.Controllers.StripePaymentFlowController.Put (Demo.WebApi)" with arguments (["True", "False", "True", "False", "Demo.Payment.Stripe.StripePaymentRequest"]) - ModelState is Valid
+2017-05-14 10:33:18 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value "https://hooks.stripe.com/redirect/authenticate/src_1AJK2LCG8KRKP8jAeU5YmCw3?client_secret=src_client_secret_edKtK8QtHX1hKYa8zH4nS9XV".
+2017-05-14 10:33:18 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action "Demo.WebApi.Controllers.StripePaymentFlowController.Put (Demo.WebApi)" in 1789.0256ms
+2017-05-14 10:33:18 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 1791.0399ms 200 application/json; charset=utf-8
+2017-05-14 10:36:14 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:8871/StripePaymentFlow?amount=175&client_secret=src_client_secret_edKtK8QtHX1hKYa8zH4nS9XV&currency=eur&customerId=cus_AedIx7nfmVZy0d&livemode=true&returnUrl=http%3A%2F%2Fquotesideas.com%2Fwp-content%2Fuploads%2F2015%2F02%2FEvent-Happy-Easter-Big-Sunday-Wallpaper.jpg_qm_CarTypeId%3D2342_amp_ColorId%3D2_amp_CaseId%3D35&source=src_1AJK2LCG8KRKP8jAeU5YmCw3  
+2017-05-14 10:36:14 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method "Demo.WebApi.Controllers.StripePaymentFlowController.Get (Demo.WebApi)" with arguments (["Demo.Payment.Stripe.StripePaymentResponse"]) - ModelState is Valid
+2017-05-14 10:36:16 [Information] Microsoft.AspNetCore.Mvc.Internal.RedirectResultExecutor: Executing RedirectResult, redirecting to "http://quotesideas.com/wp-content/uploads/2015/02/Event-Happy-Easter-Big-Sunday-Wallpaper.jpg?CarTypeId=2342&ColorId=2&CaseId=35".
+2017-05-14 10:36:16 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action "Demo.WebApi.Controllers.StripePaymentFlowController.Get (Demo.WebApi)" in 1447.3422ms
+2017-05-14 10:36:16 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 1471.091ms 302 
+2017-05-14 10:49:26 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 PUT http://localhost:8871/StripePaymentFlow?firstPayment=true&sepa_debit=false&customer=true&subscription=false text/plain;charset=UTF-8 404
+2017-05-14 10:49:26 [Information] Microsoft.AspNetCore.Mvc.StatusCodeResult: Executing HttpStatusCodeResult, setting HTTP status code 415
+2017-05-14 10:49:26 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action "Demo.WebApi.Controllers.StripePaymentFlowController.Put (Demo.WebApi)" in 88.9927ms
+2017-05-14 10:49:26 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 92.3355ms 415 
+2017-05-14 10:52:48 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 PUT http://localhost:8871/StripePaymentFlow?firstPayment=true&sepa_debit=false&customer=true&subscription=false application/json 404
+2017-05-14 10:52:48 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method "Demo.WebApi.Controllers.StripePaymentFlowController.Put (Demo.WebApi)" with arguments (["True", "False", "True", "False", "Demo.Payment.Stripe.StripePaymentRequest"]) - ModelState is Valid
+2017-05-14 10:52:51 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value "https://hooks.stripe.com/redirect/authenticate/src_1AJKLGCG8KRKP8jArekMzmaY?client_secret=src_client_secret_yTkPLgIfFymtS4KEJBF6Lb8C".
+2017-05-14 10:52:51 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action "Demo.WebApi.Controllers.StripePaymentFlowController.Put (Demo.WebApi)" in 2435.7097ms
+2017-05-14 10:52:51 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 2457.9351ms 200 application/json; charset=utf-8

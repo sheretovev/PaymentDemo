@@ -1,0 +1,11 @@
+C:\TFS-Projects\PaymentDemo\Demo.Payment.Adyen.Test\bin\Debug\net452\Demo.Payment.Adyen.Test.dll
+C:\TFS-Projects\PaymentDemo\Demo.Payment.Adyen.Test\bin\Debug\net452\Demo.Payment.Adyen.Test.pdb
+C:\TFS-Projects\PaymentDemo\Demo.Payment.Adyen.Test\bin\Debug\net452\xunit.abstractions.dll
+C:\TFS-Projects\PaymentDemo\Demo.Payment.Adyen.Test\bin\Debug\net452\xunit.assert.dll
+C:\TFS-Projects\PaymentDemo\Demo.Payment.Adyen.Test\bin\Debug\net452\xunit.core.dll
+C:\TFS-Projects\PaymentDemo\Demo.Payment.Adyen.Test\bin\Debug\net452\xunit.execution.desktop.dll
+C:\TFS-Projects\PaymentDemo\Demo.Payment.Adyen.Test\bin\Debug\net452\Demo.Payment.Adyen.dll
+C:\TFS-Projects\PaymentDemo\Demo.Payment.Adyen.Test\bin\Debug\net452\Demo.Payment.Adyen.pdb
+C:\TFS-Projects\PaymentDemo\Demo.Payment.Adyen.Test\obj\Debug\net452\Demo.Payment.Adyen.Test.csprojResolveAssemblyReference.cache
+C:\TFS-Projects\PaymentDemo\Demo.Payment.Adyen.Test\obj\Debug\net452\Demo.Payment.Adyen.Test.dll
+C:\TFS-Projects\PaymentDemo\Demo.Payment.Adyen.Test\obj\Debug\net452\Demo.Payment.Adyen.Test.pdb

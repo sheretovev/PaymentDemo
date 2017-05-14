@@ -1,0 +1,2 @@
+2017-05-14 10:28:40 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 DEBUG http://localhost:8871/  0
+2017-05-14 10:28:41 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 405.9577ms 500 text/html; charset=utf-8
