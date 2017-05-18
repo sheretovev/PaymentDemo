@@ -13,6 +13,7 @@ namespace Demo.Payment.Stripe
         public int Amount { get; set; }
         public string Currency { get; set; }
         public string OwnerName { get; set; }
+        public string Descripion { get; set; }
         public string RedirectReturnUrl { get; set; }
         public Dictionary<string, string> Metadata { get; set; }
     }
@@ -46,7 +47,8 @@ namespace Demo.Payment.Stripe
                     Name = data.OwnerName
                 },
                 RedirectReturnUrl = data.RedirectReturnUrl,
-                Metadata = data.Metadata
+                Metadata = data.Metadata,
+                IdealStatementDescriptor = data.Description
             });
             return source;
         }
