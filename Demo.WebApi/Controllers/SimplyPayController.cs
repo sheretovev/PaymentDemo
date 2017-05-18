@@ -13,12 +13,12 @@ namespace Demo.WebApi.Controllers
     [Route("[controller]")]
     public class SimplyPayController : Controller
     {   
-        private StripeSettings paymentSettings;
+        private StripeSettings stripeSettings;
         private IHttpContextAccessor httpContextAccessor;
 
         public SimplyPayController(StripeSettings settings, IHttpContextAccessor httpContextAccessor)
         {
-            this.paymentSettings = settings;
+            this.stripeSettings = settings;
             this.httpContextAccessor = httpContextAccessor;
         }
 
@@ -33,11 +33,15 @@ namespace Demo.WebApi.Controllers
         {
             return Json(new FirstPaymentData
             {
-                CountryCode = "BE",
+                //CountryCode = "BE",
                 Amount = new Random().Next(100, 200),
                 Currency = "eur",
                 OwnerName = $"Freddy {new Random(seed).Next(999)} Beek {new Random().Next(99)}",
-                Description = "Payment Insurance 21-06-2017 - 24-06-2017"
+                Description = "Payment Insurance 21-06-2017 - 24-06-2017",
+                RedirectReturnUrl = "http://iquality.nl",
+                Metadata = new Dictionary<string, string> {
+                    { "param", "pvalue"}
+                },
             });
         }
 
@@ -45,16 +49,16 @@ namespace Demo.WebApi.Controllers
         public IActionResult Get([FromQuery]StripePaymentResponse request)
         {
             var source = new StripeSourceService(stripeSettings.StripePrivateKey).Get(request.source);
-            var status = null;
+            string status = null;
             if(source.Status != "chargeable")
             {
                 // remove custom;
-                var customer = new StripeSourceService(stripeSettings.StripePrivateKey).Delete(request.source);
+                //var customer = new StripeSourceService(stripeSettings.StripePrivateKey).Delete(request.source);
                 status =  source.Status;
             }
             else{
 
-            var charge = new StripeChargeService(paymentSettings.StripePrivateKey).Create(
+            var charge = new StripeChargeService(stripeSettings.StripePrivateKey).Create(
                     new StripeChargeCreateOptions
                     {
                         Amount = request.amount,
@@ -64,16 +68,22 @@ namespace Demo.WebApi.Controllers
                     });
                 status = charge.Status;
             }
-            return Redirect("http://google.com?status=", status);
+            return Redirect($"{request.returnUrl.Replace("_qm_", "?").Replace("_amp_", "&")}{(request.returnUrl.Contains("?") ? "&" : "?")}status={status}");
         }
 
         [HttpPut]        
         public IActionResult Put([FromBody]FirstPaymentData request = null)
         {
-            var paymentProvider = new StripePaymentProvider(paymentSettings);
-            var firstPaymentSource = PaymentSourceCreator.Build(request).Create(paymentSettings, request);
+            request.CountryCode = "NL";
+            request.RedirectReturnUrl = $"{httpContextAccessor.HttpContext.Request.Scheme}://{httpContextAccessor.HttpContext.Request.Host}/{nameof(SimplyPayController).Replace(nameof(Controller), string.Empty)}?returnUrl=" +
+                    ($"{request.RedirectReturnUrl}{(request.Metadata != null ? "?" + string.Concat(request.Metadata.Select(x => $"&{x.Key}={x.Value}")).Substring(1) : "")}").Replace("?", "_qm_").Replace("&", "_amp_") +
+                    $"&amount={request.Amount}" +
+                    $"&currency={request.Currency}";
+                
+            var paymentProvider = new StripePaymentProvider(stripeSettings);
+            var firstPaymentSource = PaymentSourceCreator.Build(request).Create(stripeSettings, request);
                         
-            return firstPaymentSource.Redirect.Url;
+            return Json(firstPaymentSource.Redirect.Url);
         }
     }
 }

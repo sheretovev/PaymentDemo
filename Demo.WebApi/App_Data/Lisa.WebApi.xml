@@ -25,6 +25,13 @@
             <param name="request"></param>
             <returns></returns>
         </member>
+        <member name="M:Demo.WebApi.Controllers.SimplyPayController.Get(System.Int32)">
+            <summary>
+            Example endpoint which generates test data to make a payment PUT request
+            </summary>
+            <param name="seed">Random number</param>
+            <returns></returns>
+        </member>
         <member name="M:Demo.WebApi.Controllers.StripePaymentFlowController.Get(System.Int32)">
             <summary>
             Example endpoint which generates test data to make a payment PUT request

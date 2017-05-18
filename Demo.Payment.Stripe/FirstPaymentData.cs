@@ -13,7 +13,7 @@ namespace Demo.Payment.Stripe
         public int Amount { get; set; }
         public string Currency { get; set; }
         public string OwnerName { get; set; }
-        public string Descripion { get; set; }
+        public string Description { get; set; }
         public string RedirectReturnUrl { get; set; }
         public Dictionary<string, string> Metadata { get; set; }
     }
