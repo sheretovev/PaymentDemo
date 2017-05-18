@@ -1,7 +1,0 @@
-C:\TFS-Projects\PaymentDemo\Demo.Payment.Stripe\bin\Debug\net452\Demo.Payment.Stripe.dll
-C:\TFS-Projects\PaymentDemo\Demo.Payment.Stripe\bin\Debug\net452\Demo.Payment.Stripe.pdb
-C:\TFS-Projects\PaymentDemo\Demo.Payment.Stripe\bin\Debug\net452\Newtonsoft.Json.dll
-C:\TFS-Projects\PaymentDemo\Demo.Payment.Stripe\bin\Debug\net452\Stripe.net.dll
-C:\TFS-Projects\PaymentDemo\Demo.Payment.Stripe\obj\Debug\net452\Demo.Payment.Stripe.csprojResolveAssemblyReference.cache
-C:\TFS-Projects\PaymentDemo\Demo.Payment.Stripe\obj\Debug\net452\Demo.Payment.Stripe.dll
-C:\TFS-Projects\PaymentDemo\Demo.Payment.Stripe\obj\Debug\net452\Demo.Payment.Stripe.pdb

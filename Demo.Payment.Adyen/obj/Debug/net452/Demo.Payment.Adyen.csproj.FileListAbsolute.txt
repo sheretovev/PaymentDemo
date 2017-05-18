@@ -1,5 +1,0 @@
-C:\TFS-Projects\PaymentDemo\Demo.Payment.Adyen\bin\Debug\net452\Demo.Payment.Adyen.dll
-C:\TFS-Projects\PaymentDemo\Demo.Payment.Adyen\bin\Debug\net452\Demo.Payment.Adyen.pdb
-C:\TFS-Projects\PaymentDemo\Demo.Payment.Adyen\obj\Debug\net452\Demo.Payment.Adyen.csprojResolveAssemblyReference.cache
-C:\TFS-Projects\PaymentDemo\Demo.Payment.Adyen\obj\Debug\net452\Demo.Payment.Adyen.dll
-C:\TFS-Projects\PaymentDemo\Demo.Payment.Adyen\obj\Debug\net452\Demo.Payment.Adyen.pdb
