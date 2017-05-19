@@ -69,7 +69,7 @@ namespace Demo.WebApi.Controllers
                 status = charge.Status;
             }
             //return Json(status);
-            return Redirect($"{request.returnUrl.Replace("_qm_", "?").Replace("_amp_", "&")}{(request.returnUrl.Contains("?") ? "&" : "?")}status={status}");
+            return Redirect($"{request.returnUrl.Replace("_qm_", "?").Replace("_amp_", "&")}{(request.returnUrl.Contains("_qm_") ? "&" : "?")}status={status}");
         }
 
         [HttpPut]        
